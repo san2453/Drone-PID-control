@@ -1,2 +1,5 @@
 # Drone-PID-control
 This is the repository created to control a drone simulation on gazebo using a PID controller 
+It is a linux based simulation on gazebo and requires one to download gazebo, qgis and of course, python. For all installation related processes, please refer to the readme file inside the folder
+The README.md regarding the files installation can be found at catkin_ws/src/sentinel_drone.
+There is a controller that has already been programmed in catkin_ws/src/pid_tune for a smooth ui interface to set the throttle yaw and pitch value. The entire code for a stable drone flight with the values of the above have been coded in waypoint_navigation.py under catkin_ws/src/sentinel_drone/sentinel_drone/scripts. The values do differ based on the model of computer so if the pre set values don't work or you wish to use the gui slider to control the drone stability, make sure to update the values in that script. All other control scripts can also be found in the same path as mentioned previously
